@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1c1208;
+    color: #e8d5b7;
+    font-family: Georgia, serif;
+    line-height: 1.7;
+    padding: 40px 20px;
+}
+
+.formulaire {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #2a1f12;
+    border: 3px solid #c9a66b;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+h1 {
+    text-align: center;
+    color: #c9a66b;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+
+.message_erreur{
+    color: #d45a5a;
+    background: rgba(212, 90, 90, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #22180f;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    color: #c9a66b;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 14px;
+    background: #1c1208;
+    border: 2px solid #c9a66b;
+    color: #e8d5b7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+textarea { 
+    min-height: 160px; resize: vertical;
+}
+
+button {
+    padding: 14px 30px;
+    margin: 10px 8px 0 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button[name="envoie"] {
+    background: #c9a66b;
+    color: #1c1208;
+}
+
+button[name="cleanButton"] {
+    background: transparent;
+    color: #c9a66b;
+    border: 2px solid #c9a66b;
+}
+
+.messages_container {
+    max-width: 720px;
+    margin: 40px auto;
+}
+
+.message {
+    background: #2a1f12;
+    font-size: large;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 2px solid #c9a66b;
+    border-radius: 15px;
+    color: #e8d5b7;
+}
+
+.messages_container .message:last-child {
+    margin-bottom: 0;
+}
